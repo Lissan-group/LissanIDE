@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="961.0" prefWidth="1232.0" style="-fx-background-color: #334433;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.16666666666666666" layoutX="1.0" layoutY="87.0" prefHeight="855.0" prefWidth="1226.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Accordion layoutX="-1.0" prefHeight="75.0" prefWidth="157.0">
+                    <panes>
+                      <TitledPane animated="false" prefHeight="64.0" prefWidth="202.0" text="ሥራዎች">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                      <TitledPane animated="false" text="untitled 2">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                      <TitledPane animated="false" prefHeight="400.0" prefWidth="202.0" text="untitled 3">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                    </panes>
+                  </Accordion>
+                  <ListView layoutX="-4.0" layoutY="112.0" prefHeight="200.0" prefWidth="200.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="813.0" prefWidth="966.0">
+               <children>
+                  <SplitPane dividerPositions="0.7780517879161529" layoutX="1.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="813.0" prefWidth="1016.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="380.0" prefWidth="961.0">
+                           <children>
+                              <TabPane layoutX="77.0" layoutY="33.0" prefHeight="627.0" prefWidth="1014.0" style="-fx-background-color: #777777; -fx-border-color: #556677;" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <tabs>
+                                  <Tab text="ሥራ 1">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                             <children>
+                                                <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="-2.0" layoutY="-1.0" prefHeight="593.0" prefWidth="1014.0" />
+                                             </children>
+                                          </AnchorPane>
+                                    </content>
+                                  </Tab>
+                                  <Tab text="Untitled Tab 2">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                    </content>
+                                  </Tab>
+                                </tabs>
+                              </TabPane>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="340.0" prefWidth="977.0">
+                           <children>
+                              <TabPane layoutX="175.0" layoutY="-49.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                                <tabs>
+                                  <Tab text="Untitled Tab 1" />
+                                  <Tab text="Untitled Tab 2">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                    </content>
+                                  </Tab>
+                                </tabs>
+                              </TabPane>
+                              <TabPane layoutX="298.0" layoutY="53.0" prefHeight="176.0" prefWidth="1014.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <tabs>
+                                  <Tab text="Untitled Tab 1">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                    </content>
+                                  </Tab>
+                                  <Tab text="Untitled Tab 2">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                    </content>
+                                  </Tab>
+                                </tabs>
+                              </TabPane>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <MenuBar layoutY="5.0" prefHeight="29.0" prefWidth="1232.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="ሥራ">
+            <items>
+              <MenuItem mnemonicParsing="false" text="t" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="ማረሚያ">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="ማየት">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="ጥያቄ">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="t" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <MenuButton layoutX="16.0" layoutY="47.0" mnemonicParsing="false" text="MenuButton">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <ToggleButton layoutX="149.0" layoutY="49.0" mnemonicParsing="false" text="የተሰራውን ኣስቀምጥ" />
+      <Group layoutX="459.0" layoutY="1.0">
+         <children>
+            <Text fill="WHITE" layoutX="498.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="የመጨረሽያ ዘዴ" />
+            <ComboBox layoutX="498.0" layoutY="55.0" prefWidth="150.0" />
+            <Button layoutX="659.0" layoutY="56.0" mnemonicParsing="false" text="ጨርስ" />
+         </children>
+      </Group>
+      <Group layoutX="468.0">
+         <children>
+            <Text fill="WHITE" layoutX="258.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="የፍተና ኣይነት" />
+            <Button layoutX="419.0" layoutY="55.0" mnemonicParsing="false" text="ፍተና" />
+            <ChoiceBox layoutX="258.0" layoutY="55.0" prefWidth="150.0" />
+         </children>
+      </Group>
+   </children>
+</Pane>
